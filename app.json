@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "chainchat",
+    "slug": "chainchat",
+    "version": "0.0.5",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "jsEngine": "hermes",
+    "backgroundColor": "#fff",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "3",
+      "supportsTablet": true,
+      "bundleIdentifier": "lol.neb.daisy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "lol.neb.daisy"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b8f270dc-51bd-4226-86f1-a5dcb2e0f0e2"
+      }
+    }
+  }
+}
