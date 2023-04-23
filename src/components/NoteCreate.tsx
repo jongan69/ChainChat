@@ -61,14 +61,14 @@ export const NoteCreate: React.FC<Props> = ({ closeModal, id }) => {
             >
               {"Select Video"}
             </Button>
-            {/* <Input
+            <Input
               label={id ? "Reply" : "Post"}
               autoCapitalize="none"
               multiline
               placeholder="hello world..."
               value={content}
               onChangeText={(newContent) => setContent(newContent)}
-            /> */}
+            />
             <Button style={{ marginTop: 16, borderRadius: 10 }} onPress={handlePublish}>
               {id ? "Reply" : "Post"}
             </Button>
